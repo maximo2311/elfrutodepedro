@@ -316,4 +316,10 @@ h4 {
     .cont {
         padding: 0%;
     }
+    .f-t {
+        display: none;
+    }
+    .caja-r {
+        justify-content: center;
+    }
 }
