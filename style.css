@@ -1,0 +1,287 @@
+body {
+    font-family: "Open Sans";
+    background-color: #E4F4EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+a {
+    color: #F47676;
+}
+.content-h {
+    display: grid;
+    grid-template-columns: 3% 5rem 1fr 7rem 3%;
+    grid-template-rows: 6rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #F47676;
+    width: 100%;
+}
+
+.h-logo {
+    grid-column: 2/3;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    grid-column: 3/4;
+    font-family: "Coming Soon";
+    font-size: 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-h h3 {
+    grid-column: 4/5;
+    background-color: #63EA73;
+    width: 100%;
+    height: 50%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo {
+    display: block;
+    max-width: 100%;
+    
+}
+/*hero*/
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 45% 1fr 45% 1fr;
+    grid-template-rows: 16rem;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 16rem;
+    background-color: #E6E6E6;
+    margin: 3rem 0;
+    border-radius: 1rem;
+}
+
+.content-gato {
+    max-height: 14rem;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2/3;
+    overflow: hidden;
+}
+
+.gato {
+    display: block;
+    max-width: 90%;
+    max-height: 14rem;
+}
+
+.content-texto {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 4/5;
+    flex-direction: column;
+}
+
+/*main*/
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    background-color: #FBB03B ;
+    font-size: 3.6rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+}
+
+.content-main {
+    display: grid;
+    grid-template-columns: 3% 1fr 3rem 1fr 3rem 1fr 3%;
+    grid-template-rows: repeat(16rem 3);
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-top: 3rem;
+}
+
+.content-caja {
+    background-color: #FBB03B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+
+.a {
+    grid-row: 1/2;
+}
+
+.s {
+    grid-row: 2/3;
+}
+.d {
+    grid-row: 3/4;
+}
+.q {
+    grid-column: 2/3;
+}
+.w {
+    grid-column: 4/5;
+}
+.e {
+    grid-column: 6/7;
+}
+
+.content-caja img {
+    align-items: center;
+    max-width: 85%;
+    display: block;
+    overflow: hidden;
+    border-radius: 1rem;
+    max-height: 60%;
+    margin-top: 0.75rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.33rem;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Content-f {
+    display: grid;
+    grid-template-columns: repeat(1fr 4);
+    grid-template-rows: 1rem 1fr 1rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F47676;
+    height: 12rem;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.caja-f {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;   
+    overflow: hidden;
+}
+.logo{
+    max-height: 65%;
+    display: block;
+    align-self: center;
+    justify-self: center;
+    margin: 0 0.75rem;
+}
+
+#log {
+    justify-content: center;
+}
+
+.Log {
+    grid-area: 2/1/3/2;
+}
+
+.cont {
+    grid-area: 2/2/3/3;
+    border-left: #E4F4EC 0.15rem solid;
+    padding-left: 1.7rem;
+}
+
+.ubi {
+    grid-area: 2/3/3/4;
+    border-left: #E4F4EC 0.15rem solid;
+    border-right: #E4F4EC 0.15rem solid;
+}
+.red {
+    grid-area: 2/4/3/5;
+}
+h4 {
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 0%;
+}
+
+.caja-f p {
+    margin-top: -1.5rem;
+    font-size: 1.5rem;
+    width: 87%;
+}
+
+.caja-ig {
+    margin-top: -1rem;
+}
+
+.caja-r {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+
+}
+.ig {
+    max-width: 45%;
+    min-width: 45%;
+    display: block;
+    margin-left: 1rem;
+}
+
+.caja-r a {
+    text-decoration: none;
+    color: #63EA73;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:730px)  {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+
+    .f-t {
+        display: none;
+    }
+
+    .caja-ig {
+        margin: -1.2rem 0.75rem 0.20rem 0.75rem;
+    }
+    
+}
