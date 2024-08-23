@@ -268,7 +268,7 @@ h4 {
     font-size: 1.5rem;
 }
 
-@media only screen and (max-width:730px)  {
+@media screen and (max-width:730px) and (min-width:490px)  {
     h1 {
         font-size: 2rem;
     }
@@ -283,5 +283,37 @@ h4 {
     .caja-ig {
         margin: -1.2rem 0.75rem 0.20rem 0.75rem;
     }
-    
+}
+
+@media screen and (max-width:480px) and (min-width:320px) {
+    .h-logo {
+        max-width: 80%;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    .content-h h3 {
+        width: 80%;
+        margin-left: 0.75rem;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        height: 29rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .content-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .Content-f {
+        display: flex;
+        flex-direction: column;
+        height: 35rem;
+    }
+    .cont {
+        padding: 0%;
+    }
 }
